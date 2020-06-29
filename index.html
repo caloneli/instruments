@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Domace Zivotinje</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <div class="item" onclick="onPageChange('index.html')">Pocetna</div>
+                <div class="item" onclick="onPageChange('autor.html')">O Autoru</div>
+                <div class="item" onclick="onPageChange('uputstvo.html')">Uputstvo</div>
+            </div>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th> Naziv instrumenta </th>
+                        <th> Slika instrumenta </th>
+                        <th> Zvuk instrumenta </th>
+                    </tr>
+                    <tr>
+                        <td> Bubanj </td>
+                        <td> <img src="slike/bubanj.jpg" width="150" height="100" onclick="onImageClick('bubanj')"> </td>
+                        <td> <img src="slike/zvucnik.jpg" width="150" height="100" onmouseover="onSpeakerHover('bubanj')">  </td>
+                    </tr>
+                    <tr>
+                        <td> Gitara </td>
+                        <td> <img src="slike/gitara.jpg" width="150" height="100" onclick="onImageClick('gitara')"> </td>
+                        <td> <img src="slike/zvucnik.jpg" width="150" height="100" onmouseover="onSpeakerHover('gitara')">  </td>
+                    </tr>
+                    <tr>
+                        <td> Harmonika </td>
+                        <td> <img src="slike/harmonika.jpg" width="150" height="100" onclick="onImageClick('harmonika')"> </td>
+                        <td> <img src="slike/zvucnik.jpg" width="150" height="100" onmouseover="onSpeakerHover('harmonika')">  </td>
+                    </tr>
+                    <tr>
+                        <td> Klavir </td>
+                        <td> <img src="slike/klavir.jpg" width="150" height="100" onclick="onImageClick('klavir')"> </td>
+                        <td> <img src="slike/zvucnik.jpg" width="150" height="100" onmouseover="onSpeakerHover('klavir')">  </td>
+                    </tr>
+                    <tr>
+                        <td> Truba </td>
+                        <td> <img src="slike/truba.jpg" width="150" height="100" onclick="onImageClick('truba')"> </td>
+                        <td> <img src="slike/zvucnik.jpg" width="150" height="100" onmouseover="onSpeakerHover('truba')">  </td>
+                    </tr>
+                    <tr>
+                        <td> Violina </td>
+                        <td> <img src="slike/violina.jpg" width="150" height="100" onclick="onImageClick('violina')"> </td>
+                        <td> <img src="slike/zvucnik.jpg" width="150" height="100" onmouseover="onSpeakerHover('violina')">  </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
